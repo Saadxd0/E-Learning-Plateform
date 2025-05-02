@@ -9,6 +9,7 @@ import EnrollmentPage from './pages/EnrollmentPage';
 import CourseContentPage from './pages/CourseContentPage';
 import AboutPage from './pages/AboutPage';
 import TeachersPage from './pages/TeachersPage';
+import StudentsPage from './pages/StudentsPage';
 import ContactPage from './pages/ContactPage';
 import LoginPage from './pages/LoginPage';
 import SignupPage from './pages/SignupPage';
@@ -28,6 +29,7 @@ function App() {
             <Route path="/course/:courseId/learn" element={<CourseContentPage />} />
             <Route path="/about" element={<AboutPage />} />
             <Route path="/teachers" element={<TeachersPage />} />
+            <Route path="/students" element={<StudentsPage />} />
             <Route path="/contact" element={<ContactPage />} />
             <Route path="/login" element={<LoginPage />} />
             <Route path="/signup" element={<SignupPage />} />
